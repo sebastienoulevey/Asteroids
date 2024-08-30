@@ -1,7 +1,10 @@
 import pygame
+from constants import *
 
 def boilerplate():
-    print("Sarting asteroids!")
+    print("Starting asteroids!")
+    print(f"Screen width: {SCREEN_WIDTH}")
+    print(f"Screen height: {SCREEN_HEIGHT}")
 
 def main():
     boilerplate()
